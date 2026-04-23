@@ -31,7 +31,7 @@
 
 1. اذهب إلى **[📥 قسم Releases](../../releases)** (اضغط على الرابط على يمين الصفحة).
 2. حمل ملف `OmarGame.zip` من أحدث إصدار.
-3. فك الضغط وشغل `OmarGame.exe`.
+3. فك الضغط وشغل `game.exe`.
 
 ---
 
@@ -40,11 +40,13 @@
 > [!WARNING]
 > هذا المشروع يعتمد على مكتبة `graphics.h` (WinBGIm) القديمة. قد تحتاج لبيئة **32-bit** أو Dev-C++ قديم ليعمل بشكل سليم.
 
-1. افتح ملف `src/main.cpp` في **Dev-C++** أو **Code::Blocks**.
+1. افتح ملف `game.cpp` في **Dev-C++** أو **Code::Blocks**.
 2. تأكد من تفعيل خيارات الرابط التالية في إعدادات المشروع:
+
+
 -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 
-text
+
 3. اضغط **Build and Run**.
 
 ---
@@ -52,7 +54,7 @@ text
 ## 📸 المعرض
 
 <div align="center">
-<img src="screenshots/gameplay.png" alt="اللعب" width="400"/>
+  <img src="screenshots/gameplay.png" alt="اللعب" width="400"/>
 </div>
 
 ---
@@ -61,10 +63,4 @@ text
 
 **عمر الزمر**
 
-[![GitHub](https://img.shields.io/badge/GitHub-@omaralzomor2030-eng-black?logo=github)](https://github.com/omaralzomor2030-eng)
-
----
-
-## 📄 الترخيص
-
-هذا المشروع مفتوح المصدر – استخدمه بحرية لأغراض تعليمية وشخصية.
+[![GitHub](https://img.shields.io/badge/GitHub-@omaralzomor2030--eng-black?logo=github)](https://github.com/omaralzomor2030-eng)
